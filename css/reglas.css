@@ -34,7 +34,6 @@ body {
 nav {
     background-color: #742A37;
     padding: 0.5em;
-    margin-right: 0.5em;
     border: 2px solid #3d141b;
     display: flex;
     justify-content: space-between;
@@ -107,13 +106,70 @@ nav ul li img {
     width: 50px;
 }
 
-/* !  ! */
+/* ! Principal ! */
 
+.principal {
+    height: 500px;
+    margin: 1em auto;
+    padding: 0.5em;
+}
 
+article {
+    float: left;
+    padding: 1em;
+    background-color: white;
+}
+
+.art1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    margin-right: 2.5%;
+
+    width: 25%;
+    height: 450px;
+}
+
+.art2 {
+    margin-top: 25px;
+    margin-left: 2.5%;
+    margin-right: 10%;
+    
+    width: 50%;
+    height: 200px;
+}
+
+.art3 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 2.5%;
+    margin-right: 1%;
+    
+    width: 24%;
+    height: 200px;
+
+    overflow-y: auto;
+}
+
+.art4 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 1%;
+    margin-right: 10%;
+
+    width: 24%;
+    height: 200px;
+
+    overflow-y: auto;
+}
 
 /* ! Pie de Pagina ! */
 
 footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+
     background-color: #742A37;
     border: 2px solid #3d141b;
     color: white;
