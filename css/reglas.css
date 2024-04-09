@@ -34,7 +34,10 @@ body {
 nav {
     background-color: #742A37;
     padding: 0.5em;
+    margin-right: 0.5em;
     border: 2px solid #3d141b;
+    display: flex;
+    justify-content: space-between;
 
     font-family: "Lobster", sans-serif;
     font-weight: 400;
@@ -42,13 +45,23 @@ nav {
 }
 
 nav ul {
+    width: 60%;
     list-style-type: none;
     display: flex;
+    justify-content: start;
     align-items: center;
 }
 
+nav ul:last-child {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 nav ul li {
-    margin-right: 5em;
+    margin-right: 3em;
     transition: all 1s;
 }
 
@@ -62,6 +75,12 @@ nav ul li a {
     transition: all 1s;
 }
 
+nav ul:last-child a {
+    padding: 1em;
+    color: rgb(153, 101, 22);
+    transition: all 1s;
+}
+
 nav ul li a:hover {
     padding: 1em;
     border-radius: 2em;
@@ -69,9 +88,19 @@ nav ul li a:hover {
     color: #742A37;
 }
 
+nav ul:last-child li a:hover {
+    background-color: rgb(153, 101, 22);
+}
+
 nav ul li:first-child a:hover {
     padding: 1em;
     background-color: transparent;
+}
+
+nav ul:last-child li:first-child a:hover {
+    padding: 1em;
+    border-radius: 2em;
+    background-color: rgb(153, 101, 22);
 }
 
 nav ul li img {
