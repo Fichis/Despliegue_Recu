@@ -23,6 +23,11 @@ body {
     font-style: normal;
 }
 
+a {
+    color: #742A37;
+    text-decoration: none;
+}
+
 .contenedor-pagina {
     margin: 0 auto;
     width: 80%;
@@ -127,6 +132,10 @@ article {
     gap: 1em;
 
     opacity: 0.85;
+}
+
+article p a {
+    text-decoration: underline;
 }
 
 .art1 {
