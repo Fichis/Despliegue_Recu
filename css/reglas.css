@@ -237,6 +237,11 @@ th a:hover {
     text-align: center;
 }
 
+td input[type="submit"] {
+    padding: 0.5em;
+    font-weight: bolder;
+}
+
 #cancela {
     color: white;
     text-decoration: underline;
@@ -299,8 +304,8 @@ th a:hover {
     color: white;
 }
 
-input[type="submit"],
-input[type="reset"] {
+.contacto input[type="submit"],
+.contacto input[type="reset"] {
     background-color: #fff;
     border: 1px solid rgb(94, 94, 94);
     padding: 0.5em;
@@ -334,8 +339,9 @@ input[type="reset"] {
 }
 
 #registro input[type="submit"],
-input[type="reset"] { /* ! Botones de registro ! */
+#registro input[type="reset"] { /* ! Botones de registro ! */
     background-color: #742A37;
     border: 2px solid #3d141b;
     color: white;
+    padding: 0.5em;
 }
