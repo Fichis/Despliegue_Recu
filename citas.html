@@ -47,8 +47,52 @@
             </ul>
         </nav>
 
-        <main>
-            <h1>:)</h1>
+        <main id="citas">
+            <table>
+                <tr>
+                    <th><a class="A" href="#mis-citas">Mis citas</a></th>
+                    <th><a class="A" href="#pedir-cita">Pedir cita</a></th>
+                </tr>
+            </table>
+            <div class="contenedor-citas">
+                <h1 class="ocultame">Selecciona una de las opciones de arriba.</h1>
+                <div id="mis-citas" class="citas hidden">
+                    <h1>Mis Citas</h1>
+                    <table>
+                        <tr>
+                            <th>Día</th>
+                            <th>Hora</th>
+                            <th>Motivo</th>
+                            <th>Opciones</th>
+                        </tr>
+                        <tr>
+                            <td>XX-XX-XXXX</td>
+                            <td>XX:XX</td>
+                            <td>Mi motivo</td>
+                            <td><a id="cancela" href="#cancelar">Cancelar</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="pedir-cita" class="citas hidden">
+                    <h1>Pedir Cita</h1>
+                    <form action="#" method="post">
+                        <table>
+                            <tr>
+                                <th>Día</th>
+                                <th>Hora</th>
+                                <th>Motivo</th>
+                                <th>Opciones</th>
+                            </tr>
+                            <tr>
+                                <td><input type="date" name="dia" id="dia"></td>
+                                <td><input type="time" name="hora" id="hora"></td>
+                                <td><input type="text" name="motivo" id="motivo"></td>
+                                <td><input type="submit" value="Enviar"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
         </main>
 
         <footer>
@@ -63,6 +107,7 @@
             </div>
         </footer>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

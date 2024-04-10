@@ -181,6 +181,46 @@ article p a {
     overflow-y: auto;
 }
 
+/*! Estilos citas !*/
+
+#citas {
+    width: 80%;
+    background-color: white;
+    margin: 10px auto;
+    padding: 1em;
+    border-radius: 2em;
+    opacity: 0.85;
+}
+
+table, td, th, tr {
+    margin: 1em auto;
+    border: 2px solid #3d141b;
+    background-color: #742A37;
+    padding: 1em;
+    border-collapse: collapse;
+}
+
+th a {
+    color: #fff;
+}
+
+th a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-citas {
+    text-align: center;
+}
+
+#cancela {
+    color: white;
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
 /* ! Pie de Pagina ! */
 
 footer {
