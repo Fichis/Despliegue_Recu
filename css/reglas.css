@@ -271,3 +271,40 @@ th a:hover {
 .nosotros ol {
     padding-left: 2.5em;
 }
+
+/*! Estilos contacto !*/
+.contacto {
+    background-color: white;
+    width: 80%;
+    padding: 1em;
+    margin: 10px auto;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.contacto form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 0.5em;
+    border-radius: 2em;
+    background-color: #742A37;
+    border: 2px solid #3d141b;
+}
+
+.contacto form p {
+    margin: 0.5em;
+}
+
+.contacto form label {
+    color: white;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #fff;
+    border: 1px solid rgb(94, 94, 94);;
+    padding: 0.5em;
+    color: #742A37;
+    border-radius: 0.3em;
+    font-weight: bolder;
+}
