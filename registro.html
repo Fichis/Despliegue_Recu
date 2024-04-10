@@ -46,6 +46,44 @@
                 </li>
             </ul>
         </nav>
+
+        <main>
+            <div class="registro">
+                <h1>Registro</h1>
+                <form action="#" method="post">
+                    <p>
+                        <label for="cip">Nº Tarjeta Sanitaria:</label>
+                        <input type="text" name="cip" id="cip">
+                    </p>
+                    <p>
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name">
+                    </p>
+                    <p>
+                        <label for="apel">Apellidos:</label>
+                        <input type="text" name="apel" id="apel">
+                    </p>
+                    <p>
+                        <label for="fechnac">Fecha de Nacimiento:</label>
+                        <input type="date" name="fechnac" id="fechnac">
+                    </p>
+                    <p>
+                        <label for="email">Dirección de correo electrónico:</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <input type="checkbox" name="news" id="news"> <label for="news">Consiento que me envíen noticias relacionadas con la página web.</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="datos" id="datos" required> <label for="datos">Consiento que mis datos sean utilizados y almacenados siempre y cuando no los usen fraudulentamente.</label>
+                    </p>
+                    <p id="registro">
+                        <input type="submit" value="Registrarme">
+                        <input type="reset" value="Borrar Datos">
+                    </p>
+                </form>
+            </div>
+        </main>
     </div>
 </body>
 
