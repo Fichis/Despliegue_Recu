@@ -201,6 +201,11 @@ article p a {
     overflow-y: auto;
 }
 
+.importante {
+    color: red;
+    text-decoration: underline;
+}
+
 /*! Estilos citas !*/
 
 #citas {
